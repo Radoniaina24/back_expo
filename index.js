@@ -7,7 +7,7 @@ const path = require("path");
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
-  "http://localhost:3000",
+  "http://localhost:4028",
   "https://carrefour-emploi-etudes.com",
 ];
 const corsOptions = {

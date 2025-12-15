@@ -8,6 +8,11 @@ const ExpoSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+    title: {
+      type: String,
+      required: true,
+      trim: true,
+    },
     lastName: {
       type: String,
       required: true,
